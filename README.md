@@ -4,10 +4,13 @@
 
 ## 🎯 特性
 
-- ✅ 自动读取 `.openclaw/workspace/tasks/daily/day_track/` 里的当天任务
+- ✅ **多视图支持**：每日任务 / 本周计划 / 已完成任务
+- ✅ **日期导航**：浏览历史任务，快速切换昨天/明天/今天
+- ✅ 自动读取 `.openclaw/workspace/tasks/daily/day_track/` 里的任务
 - ✅ Kanban 三列：📋 Backlog / 🚀 In Progress / ✅ Done
 - ✅ 实时 API 操作：添加、移动、删除任务
 - ✅ 与 Chris 的自动化工作流集成（Morning Brief / Night Check）
+- ✅ **UI 优化**：遵循 baseline-ui、fixing-accessibility、fixing-metadata、fixing-motion-performance 最佳实践
 
 ## 🚀 快速开始
 
@@ -113,10 +116,12 @@ npm start
 
 ## 📝 TODO
 
-- [ ] 添加日期选择器功能
+- [x] 添加日期选择器功能 ✅
+- [x] 多视图支持（每日/每周/已完成）✅
 - [ ] 支持拖拽任务
 - [ ] 任务优先级
 - [ ] 任务截止日期
+- [ ] 已完成任务汇总视图
 - [ ] 部署到 Vercel 并配置云存储
 
 ## 📄 License
